@@ -27,6 +27,9 @@
         <activity android:name=".pool.ThreadPoolActivity3" />
         <activity android:name=".pool.ThreadPoolActivity4" />
         <activity android:name=".test2.TestActivity2" />
+        <activity android:name=".test4.TestActivity4" />
+        <activity android:name=".test4.TestActivity41" />
+        <activity android:name=".test4.TestActivity42" />
         <activity android:name=".thread.ThreadActivity" />
         <activity android:name=".thread.test1.TestThreadActivity1" />
         <activity android:name=".thread.test2.TestThreadActivity2" />

@@ -12,7 +12,16 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
         android:gravity="center"
-        android:text="线程" />
+        android:text="HandlerThread" />
+
+    <TextView
+        android:id="@+id/tv_test"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="#ff0000"
+        android:gravity="center"
+        android:text="HandlerThread" />
 
     <Button
         android:layout_width="match_parent"
@@ -20,7 +29,7 @@
         android:layout_marginTop="10dp"
         android:gravity="center"
         android:textAllCaps="false"
-        android:text="线程"
+        android:text="线程发送消息"
         android:onClick="onTest1" />
 
     <Button
@@ -29,7 +38,7 @@
         android:layout_marginTop="10dp"
         android:gravity="center"
         android:textAllCaps="false"
-        android:text="线程池"
+        android:text="主线程向子线程发送信息，通信"
         android:onClick="onTest2"/>
 
     <Button
@@ -38,16 +47,7 @@
         android:layout_marginTop="10dp"
         android:gravity="center"
         android:textAllCaps="false"
-        android:text="线程池2"
+        android:text="结束HanderThread"
         android:onClick="onTest3"/>
-
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
-        android:gravity="center"
-        android:textAllCaps="false"
-        android:text="HandlerThread"
-        android:onClick="onTest4"/>
 
 </LinearLayout>
