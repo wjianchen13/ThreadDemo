@@ -8,6 +8,7 @@ import android.view.View;
 
 import com.example.threaddemo.pool.ThreadPoolActivity;
 import com.example.threaddemo.test2.TestActivity2;
+import com.example.threaddemo.thread.ThreadActivity;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -22,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
      * @param v
      */
     public void onTest1(View v) {
-
+        startActivity(new Intent(this, ThreadActivity.class));
     }
 
     /**
