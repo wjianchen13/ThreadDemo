@@ -11,6 +11,5 @@ public class SyncLinkedList<T> {
         mQueue = new LinkedList<>();
     }
 
-    public p
 
 }
