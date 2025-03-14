@@ -9,7 +9,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import com.example.threaddemo.R;
 
 /**
- * HanderThread
+ * HandlerThread
  */
 public class TestActivity4 extends AppCompatActivity {
 
@@ -21,7 +21,7 @@ public class TestActivity4 extends AppCompatActivity {
 
 
     /**
-     * HanderThread 测试
+     * HandlerThread 测试
      */
     public void onTest1(View v) {
         startActivity(new Intent(this, TestActivity41.class));

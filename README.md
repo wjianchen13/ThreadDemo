@@ -7,5 +7,5 @@ https://blog.csdn.net/qq_43478694/article/details/123385279?spm=1001.2101.3001.6
 JAVA线程池详解
 https://blog.csdn.net/ZHANGLIZENG/article/details/127833510?spm=1001.2101.3001.6650.8&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogOpenSearchComplete%7ERate-8-127833510-blog-135510149.235%5Ev43%5Epc_blog_bottom_relevance_base2&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogOpenSearchComplete%7ERate-8-127833510-blog-135510149.235%5Ev43%5Epc_blog_bottom_relevance_base2&utm_relevant_index=13
 
-
-
+深入理解Java中synchronized三种使用方式：助您写出线程安全的代码
+https://developer.aliyun.com/article/1646370?scm=20140722.ID_community@@article@@1646370._.ID_community@@article@@1646370-OR_rec-PAR1_0b14c2aa17419169534268738ee65e-V_1-RL_community@@article@@1122631
