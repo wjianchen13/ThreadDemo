@@ -12,7 +12,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
         android:gravity="center"
-        android:text="线程" />
+        android:text="ThreadLocal" />
 
     <Button
         android:layout_width="match_parent"
@@ -20,7 +20,7 @@
         android:layout_marginTop="10dp"
         android:gravity="center"
         android:textAllCaps="false"
-        android:text="线程"
+        android:text="test1"
         android:onClick="onTest1" />
 
     <Button
@@ -29,35 +29,7 @@
         android:layout_marginTop="10dp"
         android:gravity="center"
         android:textAllCaps="false"
-        android:text="线程池"
+        android:text="test2"
         android:onClick="onTest2"/>
-
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
-        android:gravity="center"
-        android:textAllCaps="false"
-        android:text="线程池2"
-        android:onClick="onTest3"/>
-
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
-        android:gravity="center"
-        android:textAllCaps="false"
-        android:text="HandlerThread"
-        android:onClick="onTest4"/>
-
-
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
-        android:gravity="center"
-        android:textAllCaps="false"
-        android:text="ThreadLocal"
-        android:onClick="onTest5"/>
 
 </LinearLayout>

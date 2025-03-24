@@ -9,6 +9,7 @@ import android.view.View;
 import com.example.threaddemo.pool.ThreadPoolActivity;
 import com.example.threaddemo.test2.TestActivity2;
 import com.example.threaddemo.test4.TestActivity4;
+import com.example.threaddemo.test5.TestActivity5;
 import com.example.threaddemo.thread.ThreadActivity;
 
 public class MainActivity extends AppCompatActivity {
@@ -35,7 +36,6 @@ public class MainActivity extends AppCompatActivity {
         startActivity(new Intent(this, ThreadPoolActivity.class));
     }
 
-
     /**
      * 线程池2
      * @param v
@@ -44,13 +44,20 @@ public class MainActivity extends AppCompatActivity {
         startActivity(new Intent(this, TestActivity2.class));
     }
 
-
     /**
      * HandlerThread
      * @param v
      */
     public void onTest4(View v) {
         startActivity(new Intent(this, TestActivity4.class));
+    }
+
+    /**
+     * ThreadLocal
+     * @param v
+     */
+    public void onTest5(View v) {
+        startActivity(new Intent(this, TestActivity5.class));
     }
 
 }
