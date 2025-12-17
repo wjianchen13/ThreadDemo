@@ -1,5 +1,11 @@
 # 线程
 
+
+# 编译环境
+android-studio-2024.3.2.15
+gradle插件：8.10.1
+gradle版本：gradle-8.11.1-bin
+
 # 参考文档
 Java线程池（超详细）
 https://blog.csdn.net/qq_43478694/article/details/123385279?spm=1001.2101.3001.6661.1&utm_medium=distribute.pc_relevant_t0.none-task-blog-2%7Edefault%7EBlogCommendFromBaidu%7ERate-1-123385279-blog-130685714.235%5Ev38%5Epc_relevant_anti_t3_base&depth_1-utm_source=distribute.pc_relevant_t0.none-task-blog-2%7Edefault%7EBlogCommendFromBaidu%7ERate-1-123385279-blog-130685714.235%5Ev38%5Epc_relevant_anti_t3_base&utm_relevant_index=1
