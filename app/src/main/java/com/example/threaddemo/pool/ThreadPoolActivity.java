@@ -48,4 +48,29 @@ public class ThreadPoolActivity extends AppCompatActivity {
         startActivity(new Intent(this, ThreadPoolActivity4.class));
     }
 
+    /**
+     * ThreadFactory
+     * @param v
+     */
+    public void onTest5(View v) {
+        startActivity(new Intent(this, ThreadPoolActivity5.class));
+    }
+
+    /**
+     * 调度器的钩子方法
+     * @param v
+     */
+    public void onTest6(View v) {
+        startActivity(new Intent(this, ThreadPoolActivity6.class));
+    }
+
+    /**
+     * 线程池的拒绝策略
+     * @param v
+     */
+    public void onTest7(View v) {
+        startActivity(new Intent(this, ThreadPoolActivity7.class));
+    }
+
+
 }
