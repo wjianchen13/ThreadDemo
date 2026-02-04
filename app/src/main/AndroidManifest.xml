@@ -38,6 +38,7 @@
         <activity android:name=".thread.test2.TestThreadActivity2" />
         <activity android:name=".thread.test3.TestThreadActivity3" />
         <activity android:name=".thread.test4.TestThreadActivity4" />
+        <activity android:name=".thread.test5.TestThreadActivity5" />
         <activity android:name=".test5.TestActivity5" />
         <activity android:name=".test5.TestActivity51" />
         <activity android:name=".test6.TestActivity6" />

@@ -12,6 +12,7 @@ import com.example.threaddemo.thread.test1.TestThreadActivity1;
 import com.example.threaddemo.thread.test2.TestThreadActivity2;
 import com.example.threaddemo.thread.test3.TestThreadActivity3;
 import com.example.threaddemo.thread.test4.TestThreadActivity4;
+import com.example.threaddemo.thread.test5.TestThreadActivity5;
 
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
@@ -61,10 +62,10 @@ public class ThreadActivity extends AppCompatActivity {
     }
 
     /**
-     *
+     * 线程池解析消息测试
      */
     public void onTest5(View v) {
-
+        startActivity(new Intent(this, TestThreadActivity5.class));
     }
 
     /**
