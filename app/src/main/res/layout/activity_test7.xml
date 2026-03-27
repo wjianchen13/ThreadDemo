@@ -12,7 +12,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
         android:gravity="center"
-        android:text="线程" />
+        android:text="停止线程" />
 
     <Button
         android:layout_width="match_parent"
@@ -20,7 +20,7 @@
         android:layout_marginTop="10dp"
         android:gravity="center"
         android:textAllCaps="false"
-        android:text="线程"
+        android:text="volatile 线程可见性，内存栅栏"
         android:onClick="onTest1" />
 
     <Button
@@ -29,7 +29,7 @@
         android:layout_marginTop="10dp"
         android:gravity="center"
         android:textAllCaps="false"
-        android:text="线程池"
+        android:text="interrupt"
         android:onClick="onTest2"/>
 
     <Button
@@ -38,7 +38,7 @@
         android:layout_marginTop="10dp"
         android:gravity="center"
         android:textAllCaps="false"
-        android:text="线程池2"
+        android:text="Future + ExecutorService"
         android:onClick="onTest3"/>
 
     <Button
@@ -47,7 +47,7 @@
         android:layout_marginTop="10dp"
         android:gravity="center"
         android:textAllCaps="false"
-        android:text="HandlerThread"
+        android:text=""
         android:onClick="onTest4"/>
 
     <Button
@@ -56,7 +56,7 @@
         android:layout_marginTop="10dp"
         android:gravity="center"
         android:textAllCaps="false"
-        android:text="ThreadLocal"
+        android:text=""
         android:onClick="onTest5"/>
 
     <Button
@@ -65,16 +65,10 @@
         android:layout_marginTop="10dp"
         android:gravity="center"
         android:textAllCaps="false"
-        android:text="测试"
+        android:text=""
         android:onClick="onTest6"/>
 
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
-        android:gravity="center"
-        android:textAllCaps="false"
-        android:text="停止线程"
-        android:onClick="onTest7"/>
+
+
 
 </LinearLayout>

@@ -43,6 +43,7 @@
         <activity android:name=".test5.TestActivity51" />
         <activity android:name=".test6.TestActivity6" />
         <activity android:name=".test6.test1.TestTestActivity1" />
+        <activity android:name=".test7.TestActivity7" />
 
     </application>
 
